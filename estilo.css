@@ -1,0 +1,365 @@
+body{
+                    margin: 0px;
+                }
+                div.limpa{
+                    clear: both;
+                }
+                
+                div.header{
+                    margin-bottom: -4px;
+                    width: 100%;
+                    height: 20%;
+                    background-color: black;
+                }
+                div.logo{
+                    text-align: center;
+                    width: 33.3%;
+                    height: 100%;
+                    float: left;
+                }
+                div.tel{
+                    text-align: center;
+                    width: 33.3%;
+                    height: 100%;
+                    float: left;
+                    font-family: 'Oswald', sans-serif;
+                    font-size: 25px;
+                    color: white;
+                }
+                div.pesquisar{
+                    margin-top: 4px;
+                    text-align: center;
+                    width: 33.3%;
+                    height: 100%;
+                    float: left;
+                }
+                div.section{
+                    float: left;
+                    width: 80%;
+                }
+                div.article{
+                    width: 100%;
+                }
+                figure{
+                    margin: 5px;
+                    float: right;
+                }
+                figcaption{
+                    color: black;
+                    font-weight: bold;
+                    font-family:arial;
+                    text-align: justify;
+                }
+                hr {
+                    border: 1px solid #000;
+                    color: #fff;
+                    background-color: #000;
+                    height: 1px;
+                }
+                a{
+                    font-size: 20px;
+                    color: green;
+                    font-weight: bold;
+                    font-family: 'Oswald', sans-serif;
+                }
+                p{
+                    font-size: 15px;
+                    color: gray;
+                    font-style: italic;
+                    font-family: 'Oswald', sans-serif;
+                    text-align: justify;
+                }
+                nav ul{
+                    margin-bottom: -10px;
+                    margin-top: -10px;
+                }
+                nav li{
+                    display: inline;
+                    padding: 15px 25px;
+                }
+
+                nav a{
+                    font-family: 'Oswald', sans-serif;
+                    color:black;
+                    text-decoration: none;
+                }
+                article{
+                    width: 20%;
+                    float: left;
+                    padding: 0 2%;
+                }
+
+                article img{
+                    width: 100%;
+                }
+                aside{
+                    background-color: black;
+                    margin-top: -344px;
+                    float: left;
+                    width: 20%;
+                }
+                aside img{
+                    margin-top: 14px;
+                    margin-bottom: 14px;
+                    
+                }
+                .classname {
+                    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+                    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+                    box-shadow:inset 0px 1px 0px 0px #ffffff;
+                    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5dc700), color-stop(1, #419100) );
+                    background:-moz-linear-gradient( center top, #5dc700 5%, #419100 100% );
+                    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5dc700', endColorstr='#419100');
+                    background-color:#5dc700;
+                    -webkit-border-top-left-radius:6px;
+                    -moz-border-radius-topleft:6px;
+                    border-top-left-radius:6px;
+                    -webkit-border-top-right-radius:6px;
+                    -moz-border-radius-topright:6px;
+                    border-top-right-radius:6px;
+                    -webkit-border-bottom-right-radius:6px;
+                    -moz-border-radius-bottomright:6px;
+                    border-bottom-right-radius:6px;
+                    -webkit-border-bottom-left-radius:6px;
+                    -moz-border-radius-bottomleft:6px;
+                    border-bottom-left-radius:6px;
+                    text-indent:0;
+                    border:1px solid #268a16;
+                    display:inline-block;
+                    color:#ffffff;
+                    font-family:arial;
+                    font-size:15px;
+                    font-weight:bold;
+                    font-style:normal;
+                    height:24px;
+                    line-height:24px;
+                    width:113px;
+                    text-decoration:none;
+                    text-align:center;
+                    text-shadow:0px 1px 0px #000000;
+                }
+                .classname:hover {
+                    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #419100), color-stop(1, #5dc700) );
+                    background:-moz-linear-gradient( center top, #419100 5%, #5dc700 100% );
+                    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#419100', endColorstr='#5dc700');
+                    background-color:#419100;
+                }
+                .classname:active {
+                    position:relative;
+                    top:1px;
+                }
+                div.hr{
+                    background-color: green;
+                    margin-bottom: 12px;
+                }
+                div.hr a{
+                    color: black;
+                    font-size: 25px;
+                    font-weight: bold;
+                    font-family: 'Oswald', sans-serif;
+                }
+                label a{
+                    font-size: 18px;
+                    color: white;
+                    font-weight: bold;
+                    font-family: 'Oswald', sans-serif;
+                }
+                legend a{
+                    font-size: 20px;
+                    color: white;
+                    font-weight: bold;
+                    font-family: 'Oswald', sans-serif;
+                }
+                form a{
+                    margin-top: -15px;
+                    margin-bottom: -10px;
+                }
+                footer{
+                	text-align: center;
+                    background-color: black;
+                    width: 100%;
+                    height: 30%;
+                    float: left;
+                }
+                footer img{
+                	margin-top: 30px;
+                }
+                div.marquee{
+                    width: 100%;
+                    margin-left: -50px;
+                }
+                div.marquee a{
+                    color:white;
+                }
+                div.coluna{
+                	margin-top: -8px;
+                	border-top-style: ridge;
+                	border-top-color: black;
+                	border-bottom-style: ridge;
+                	border-bottom-color: transparent;
+                	border-right-color: white;
+                	border-left-color: white;
+                }    
+                div.coluna h4{
+                    font-family: 'Oswald', sans-serif;
+                    color: gray;
+                }
+                div.coluna a{
+                	margin-left: 10px;
+                    font-family: 'Oswald', sans-serif;
+                    text-align: justify;
+                }
+                div.coluna h3{
+                	font-family: 'Oswald', sans-serif;
+                }
+                #line{
+                	border-radius: 10px 20px 30px;
+                	border-top-style: ridge;
+                	border-bottom-style: ridge;
+                	margin-right: 10px;
+                	margin-left: 10px;
+                	background-color: white;
+                }
+                #line img{
+                	margin-left: 45px;
+                	
+                }
+                #preco{
+                	margin-left: 10px;
+                	margin-top: 5px;
+                	width: 25%;
+                	border-radius: 10px 20px 30px;
+                }
+                #preco p{
+                	font-size: 20px;
+                    color: black;
+                    font-style: bold;
+                    font-family: 'Oswald', sans-serif;
+                }
+                #local{
+                	float: left;
+                	text-align: justify;
+                	margin-top: 5px;
+                	width: 25%;
+                	border-radius: 10px 20px 30px;
+                }
+                #local p{
+
+                	font-size: 20px;
+                    color: black;
+                    font-style: bold;
+                    font-family: 'Oswald', sans-serif;
+                }
+
+
+                @media all and (max-width: 900px){
+
+		        article{
+					width: 44%;
+				}
+
+				div.pesquisar a{
+					margin-top: 1px;
+				}
+
+				aside{
+					height: 100%;
+					margin-top: -500px;
+				}
+				aside img{
+					margin-top: 30px;
+					height: 20%;
+				}
+
+				aside fieldset input{
+					width: 100%;
+				}
+				footer img{
+					width: 100%;
+				}
+
+				@media all and (max-width: 762px){
+
+				article{
+					width: 44%;
+				}
+				
+				div.pesquisar a{
+					margin-top: 1px;
+				}
+
+				div.logo img{
+					width: 70%;
+				}
+
+				div.tel{
+					font-size: 20px;
+				}
+
+				aside fieldset input{
+					width: 100%;
+					font-size: 15px;
+				}
+				footer img{
+					width: 100%;
+				}
+}
+				@media all and (max-width: 740px){
+
+					aside fieldset{
+					width: 50%;
+				}
+				aside fieldset input{
+					width: 50%;
+				}
+				aside{
+					font-size: 5px;
+				}
+}				
+
+				@media all and (max-width: 608px){
+
+				article{
+					width: 94%;
+				}
+
+				nav li{
+					padding: 15px 10px;
+				}
+				div.tel{
+					margin-top: -5px;
+					font-size: 17px;
+				}
+}
+
+			    @media all and (max-width: 500px){
+
+				article{
+					width: 94%;
+				}
+
+				nav li{
+					padding: 15px 10px;
+				}
+				div.tel{
+					margin-top: -5px;
+					font-size: 17px;
+				}
+
+                @media all and (max-width: 287px){
+
+				article{
+					width: 94%;
+				}
+
+				nav li{
+					padding: 15px 10px;
+				}
+				div.tel{
+					margin-top: -5px;
+					font-size: 13px;
+				}
+				aside fieldset input{
+					width:100%;
+				}
+}     
